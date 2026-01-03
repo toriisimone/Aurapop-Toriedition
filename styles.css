@@ -193,7 +193,6 @@ body {
   background-position: center;
   box-shadow: 0 28px 68px rgba(0, 0, 0, 0.25);
 }
-}
 
 /* ----------------------------- */
 /* PROMO STRIP                   */
@@ -247,4 +246,44 @@ body {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
   gap: 30px;
+}
+
+/* ----------------------------- */
+/* DROPDOWN MENU                 */
+/* ----------------------------- */
+
+.ap-dropdown {
+  position: relative;
+}
+
+.ap-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #ffffff;
+  border: 1px solid rgba(240, 200, 230, 0.6);
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  display: none;
+  flex-direction: column;
+  min-width: 180px;
+  z-index: 1000;
+}
+
+.ap-dropdown-menu a {
+  padding: 8px 16px;
+  font-size: 0.82rem;
+  color: #444;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.ap-dropdown-menu a:hover {
+  background: #fdf3ff;
+  color: #d63384;
+}
+
+.ap-dropdown:hover .ap-dropdown-menu {
+  display: flex;
 }
