@@ -1,1 +1,36 @@
-placeholder.txt
+{
+  "categories": [
+    {
+      "id": "makeup",
+      "name": "Makeup",
+      "image": "images/makeup-category.jpg"
+    },
+    {
+      "id": "skincare",
+      "name": "Skincare",
+      "image": "images/skincare-category.jpg"
+    },
+    {
+      "id": "womens-wellness",
+      "name": "Women’s Wellness",
+      "image": "images/womens-wellness-category.jpg"
+    },
+    {
+      "id": "mens-wellness",
+      "name": "Men’s Wellness",
+      "image": "images/mens-wellness-category.jpg"
+    },
+    {
+      "id": "gifts",
+      "name": "Gifts",
+      "image": "images/gifts-category.jpg"
+    },
+    {
+      "id": "gadgets",
+      "name": "Gadgets",
+      "image": "images/gadgets-category.jpg"
+    }
+  ],
+
+  "products": []
+}
